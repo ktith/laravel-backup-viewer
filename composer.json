@@ -1,0 +1,21 @@
+{
+    "name": "k_tith/backup-file",
+    "description": "Laravel CRUD backup files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "k_tith\\BackupViewer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tith khem",
+            "email": "titkhem167@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "spatie/laravel-backup": "^6.16"
+    }
+}
