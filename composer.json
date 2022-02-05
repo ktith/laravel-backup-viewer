@@ -1,6 +1,6 @@
 {
-    "name": "k_tith/backup-file",
-    "description": "Laravel CRUD backup files",
+    "name": "k_tith/laravel-backup-viewer",
+    "description": "Simple Laravel viewer backup files",
     "type": "library",
     "license": "MIT",
     "autoload": {
