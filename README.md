@@ -24,4 +24,4 @@ __Note:__ This can be use only laravel backup package.
 
 ### Basic usage
 
-![Demo Page](https://imgur.com/a/xZhjmrr)
+![Demo Page](https://i.imgur.com/ixOwygH.png)
