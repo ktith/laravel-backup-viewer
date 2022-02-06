@@ -164,7 +164,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark p-0">
-    <a href="{{ route('log-viewer::dashboard') }}" class="navbar-brand mr-0">
+    <a href="{{ route('backup.index') }}" class="navbar-brand mr-0">
         <i class="fa fa-fw fa-book"></i> Backup viewer
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -173,8 +173,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a href="{{ route('admin.dashboard') }}" class="nav-link">
-                    <i class="fa fa-star"></i> {{ appName() }}
+                <a href="{{ route('backup.index') }}" class="nav-link">
+                    <i class="fa fa-star"></i> {{ config('app.name') }}
                 </a>
             </li>
             <li class="nav-item {{ Route::is('backup.index') ? 'active' : '' }}">
