@@ -172,11 +172,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a href="{{ route('backup.index') }}" class="nav-link">
-                    <i class="fa fa-star"></i> {{ config('app.name') }}
-                </a>
-            </li>
             <li class="nav-item {{ Route::is('backup.index') ? 'active' : '' }}">
                 <a href="{{ route('backup.index') }}" class="nav-link">
                     <i class="fa fa-archive"></i> @lang('Lists')
