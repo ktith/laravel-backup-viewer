@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "k_tith\\BackupViewer\\": "src/"
-        }
+        },
+        "files": ["helpers.php"]
     },
     "authors": [
         {

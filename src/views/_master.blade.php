@@ -157,56 +157,6 @@
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
         }
 
-        .badge.badge-level-all,
-        .box.level-all {
-            background-color: {{ log_styler()->color('all') }};
-        }
-
-        .badge.badge-level-emergency,
-        .box.level-emergency {
-            background-color: {{ log_styler()->color('emergency') }};
-        }
-
-        .badge.badge-level-alert,
-        .box.level-alert  {
-            background-color: {{ log_styler()->color('alert') }};
-        }
-
-        .badge.badge-level-critical,
-        .box.level-critical {
-            background-color: {{ log_styler()->color('critical') }};
-        }
-
-        .badge.badge-level-error,
-        .box.level-error {
-            background-color: {{ log_styler()->color('error') }};
-        }
-
-        .badge.badge-level-warning,
-        .box.level-warning {
-            background-color: {{ log_styler()->color('warning') }};
-        }
-
-        .badge.badge-level-notice,
-        .box.level-notice {
-            background-color: {{ log_styler()->color('notice') }};
-        }
-
-        .badge.badge-level-info,
-        .box.level-info {
-            background-color: {{ log_styler()->color('info') }};
-        }
-
-        .badge.badge-level-debug,
-        .box.level-debug {
-            background-color: {{ log_styler()->color('debug') }};
-        }
-
-        .badge.empty,
-        .box.empty {
-            background-color: {{ log_styler()->color('empty') }};
-        }
-
         .badge.badge-env {
             background-color: #6A1B9A;
         }
@@ -246,7 +196,7 @@
 <footer class="main-footer">
     <div class="container-fluid">
         <p class="text-muted pull-left">
-            BackupViewer - <span class="badge badge-info">version {{ log_viewer()->version() }}</span>
+            BackupViewer - <span class="badge badge-info">version v1.0</span>
         </p>
         <p class="text-muted pull-right">
             Created with <i class="fa fa-heart"></i> by TITHKHEM <sup>&copy;</sup>
