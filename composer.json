@@ -17,5 +17,14 @@
     "require": {
         "php": "^7.4|^8.0",
         "spatie/laravel-backup": "^6.16"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "k_tith\\BackupViewer\\BackupViewerServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
     }
 }
